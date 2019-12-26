@@ -17,13 +17,13 @@ namespace TestJenkins
         {
             //Console.WriteLine(createmessage());
         }
-        public static string createmessage()
+        public static string Createmessage()
         {
             return "Hello World";
         }
         public void TestMethod()
         {
-            Assert.AreEqual("Hello World", createmessage());
+            Assert.AreEqual("Hello World", Createmessage());
         }
     }
 }
