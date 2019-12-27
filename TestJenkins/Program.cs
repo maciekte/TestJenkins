@@ -21,6 +21,7 @@ namespace TestJenkins
         {
             return "Hello World";
         }
+        [Test]
         public void TestMethod()
         {
             Assert.AreEqual("Hello World", Createmessage());
